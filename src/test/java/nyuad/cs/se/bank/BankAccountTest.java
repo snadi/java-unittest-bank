@@ -1,9 +1,8 @@
-package nyuad.se.cs.bank;
+package nyuad.cs.se.bank;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import nyuad.cs.se.bank.BankAccount;
 
 class BankAccountTest {
     BankAccount account;
@@ -20,3 +19,4 @@ class BankAccountTest {
     }
 
 }
+
