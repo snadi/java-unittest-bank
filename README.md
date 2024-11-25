@@ -1,6 +1,6 @@
-# Bank Account Example - Unit Testing with Coverage
+# Bank Account Example - Starter Java repo for testing and CI
 
-This Java project demonstrates unit testing and code coverage using a simple `BankAccount` class. The project includes methods for depositing, withdrawing, and transferring funds with basic validation rules. We will implement unit tests using [JUnit](https://junit.org/junit5/), and we will measure code coverage with [JaCoCo](https://www.jacoco.org/jacoco/trunk/doc/).
+This Java project is a starter repo that is used for teaching unit testing, code coverage, and CI using a simple `BankAccount` class.  The project includes methods for depositing, withdrawing, and transferring funds with basic validation rules. We will implement unit tests using [JUnit](https://junit.org/junit5/), and we will measure code coverage with [JaCoCo](https://www.jacoco.org/jacoco/trunk/doc/).
 
 Note that the pom.xml file is already configured to run JaCoCo.
 
@@ -36,6 +36,6 @@ mvn jacoco:report
 
 This will generate a `target/site/jacoco/index.html` file, which you can open in your browser to view the coverage report.
 
-## Your Task
+## Tasks
 
-Add tests to `BankAccountTest.java` to achieve 100% statement and branch coverage for the BankAccount class.
+See [tasks](/tasks) folder for the different tasks you can try out with this repo.
